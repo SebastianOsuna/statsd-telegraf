@@ -1,21 +1,25 @@
 ## See https://hub.docker.com/_/telegraf/
 
-Telegraf configured with UDP Statsd input and InfluxDB output
+Telegraf configured with StatsD input and InfluxDB output
 ---
 
 Added configurations:
 
-### INFLUXDB_HOST
+#### INFLUXDB_HOST
 
 Defaults to `localhost`
 
-### INFLUXDB_PORT
+#### INFLUXDB_PORT
 
 Defaults to `8086`
 
-### INFLUXDB_DATABASE
+#### INFLUXDB_DATABASE
 
 Defaults to `db0`
+
+#### STATSD_PROTOCOL
+
+Defaults to `udp`
 
 
 ```cli
